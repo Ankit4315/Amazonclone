@@ -1,0 +1,42 @@
+/* *{
+    box-sizing: border-box;
+} */
+.outer{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 60px;
+    width: 60%;
+    height: 50vh;
+    background-color: #c1f6ff;
+    align-items: center;
+    
+    margin: 5px 300px;
+    box-shadow: 1px 1px 10px 2px lightblue;
+}
+
+.ligh{
+    color: aliceblue;
+}
+    
+
+
+.imgs{
+    margin: 50px;
+    
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
+    background-color: blue;
+    border: 2px solid #2ba9bf;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 0px;
+   
+    /* display: block; */
+    /* box-shadow: ; */
+
+}
