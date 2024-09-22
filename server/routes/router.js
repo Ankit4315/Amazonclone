@@ -88,7 +88,7 @@ router.post("/login", async (req, res) => {
 
       //token genrate
       const token = await userlogin.generateAuthtoken();
-      // console.log(token);
+      console.log(token);
 
       res.cookie("Amazonweb", token, {
         expires: new Date(Date.now() + 900000),
